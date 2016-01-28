@@ -45,10 +45,8 @@ configure:1965: result: yes
 configure:2116: checking for a thread-safe mkdir -p
 configure:2155: result: /bin/mkdir -p
 configure:2162: checking for gawk
-configure:2192: result: no
-configure:2162: checking for mawk
-configure:2178: found /usr/bin/mawk
-configure:2189: result: mawk
+configure:2178: found /usr/bin/gawk
+configure:2189: result: gawk
 configure:2200: checking whether make sets $(MAKE)
 configure:2222: result: yes
 configure:2251: checking whether make supports nested variables
@@ -171,7 +169,7 @@ ac_cv_env_target_alias_value=
 ac_cv_objext=o
 ac_cv_path_install='/usr/bin/install -c'
 ac_cv_path_mkdir=/bin/mkdir
-ac_cv_prog_AWK=mawk
+ac_cv_prog_AWK=gawk
 ac_cv_prog_ac_ct_CC=gcc
 ac_cv_prog_cc_c89=
 ac_cv_prog_cc_g=yes
@@ -184,7 +182,7 @@ am_cv_prog_cc_c_o=yes
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/martin/github/Lecture3/hello_world/missing aclocal-1.14'
+ACLOCAL='${SHELL} /home/martin/github/LinuxSoftUni/hello_world_arch_pack/missing aclocal-1.14'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
@@ -193,10 +191,10 @@ AM_BACKSLASH='\'
 AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
 AM_DEFAULT_VERBOSITY='1'
 AM_V='$(V)'
-AUTOCONF='${SHELL} /home/martin/github/Lecture3/hello_world/missing autoconf'
-AUTOHEADER='${SHELL} /home/martin/github/Lecture3/hello_world/missing autoheader'
-AUTOMAKE='${SHELL} /home/martin/github/Lecture3/hello_world/missing automake-1.14'
-AWK='mawk'
+AUTOCONF='${SHELL} /home/martin/github/LinuxSoftUni/hello_world_arch_pack/missing autoconf'
+AUTOHEADER='${SHELL} /home/martin/github/LinuxSoftUni/hello_world_arch_pack/missing autoheader'
+AUTOMAKE='${SHELL} /home/martin/github/LinuxSoftUni/hello_world_arch_pack/missing automake-1.14'
+AWK='gawk'
 CC='gcc'
 CCDEPMODE='depmode=gcc3'
 CFLAGS='-g -O2'
@@ -216,7 +214,7 @@ LDFLAGS=''
 LIBOBJS=''
 LIBS=''
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /home/martin/github/Lecture3/hello_world/missing makeinfo'
+MAKEINFO='${SHELL} /home/martin/github/LinuxSoftUni/hello_world_arch_pack/missing makeinfo'
 MKDIR_P='/bin/mkdir -p'
 OBJEXT='o'
 PACKAGE='helloworld'
@@ -254,7 +252,7 @@ host_alias=''
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/martin/github/Lecture3/hello_world/install-sh'
+install_sh='${SHELL} /home/martin/github/LinuxSoftUni/hello_world_arch_pack/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
