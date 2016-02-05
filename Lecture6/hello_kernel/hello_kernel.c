@@ -1,5 +1,7 @@
-#include <linux/init.h>
-#include <linux/module.h>
+#include <linux/init.h>		
+#include <linux/module.h>	
+#include <linux/kernel.h>
+
 MODULE_LICENSE("Dual BSD/GPL");
 
 static int hello_init(void)
