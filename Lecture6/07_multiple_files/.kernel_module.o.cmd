@@ -1,1 +1,0 @@
-cmd_/home/martin/git/LinuxSoftUni/Lecture6/07_multiple_files/kernel_module.o := ld -m elf_i386   -r -o /home/martin/git/LinuxSoftUni/Lecture6/07_multiple_files/kernel_module.o /home/martin/git/LinuxSoftUni/Lecture6/07_multiple_files/start.o /home/martin/git/LinuxSoftUni/Lecture6/07_multiple_files/stop.o /home/martin/git/LinuxSoftUni/Lecture6/07_multiple_files/module.o 
