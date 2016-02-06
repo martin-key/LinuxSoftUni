@@ -2,7 +2,7 @@
 #include <time.h>
 #include <math.h>
 
-#define MAX_NUMBER 100000
+#define MAX_NUMBER 10000
 
 int main()
 {
