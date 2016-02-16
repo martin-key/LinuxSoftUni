@@ -13,7 +13,8 @@ void main()
 	printf("Child process PID: %d\n", getpid());
 	printf("Group process PID: %d\n", getpgrp());
 	printf("Group leader PID: %d\n", getpgid(getpid()));
-	variable1++;
+	printf("variable1 address = %p\n", &variable1);
+	variable1 = 7;
 	_exit(EXIT_SUCCESS);
 	}
 	else if(forkResult < 0)
@@ -23,10 +24,11 @@ void main()
 	else
 	{
 		int status;
-		(void)waitpid(forkResult,&status,0); 
+		//(void)waitpid(forkResult,&status,0); 
 		printf("PID %d: ", getpid());
 		printf("-New process, I'm you father !\n");
-		variable1--;
+		printf("variable1 address = %p", &variable1);
+		variable1 = 14;
 	}
 	printf("Variable 1: %d\n", variable1);
 }

@@ -14,6 +14,7 @@ void main()
 	printf("Group process PID: %d\n", getpgrp());
 	printf("Group leader PID: %d\n", getpgid(getpid()));
 	variable1++;
+	printf("variable1 address = %p\n", &variable1);
 	}
 	else if(forkResult < 0)
 	{
@@ -24,6 +25,7 @@ void main()
 		printf("PID %d: ", getpid());
 		printf("-New process, I'm you father !\n");
 		variable1--;
+		printf("variable1 address = %p\n", &variable1);
 	}
-	//printf("Variable 1: %d\n", variable1);
+	printf("Variable 1: %d\n", variable1);
 }
